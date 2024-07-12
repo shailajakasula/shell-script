@@ -25,7 +25,7 @@ then
    echo " root user" 
 fi
 
-yum install mysql -y &>> $LOGFILE
+yum install mysql -y 
 
 validate $? "installing mysql"
 
