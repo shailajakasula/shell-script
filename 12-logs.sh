@@ -29,6 +29,6 @@ yum install mysql -y
 
 validate $? "installing mysql"
 
-yum install git -y &>> $LOGFILE
+yum install git -y 
 
 validate $? "installing git"
