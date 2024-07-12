@@ -17,7 +17,7 @@ validate(){
 
 
 
-if [ id -ne 0 ]
+if [ $id -ne 0 ]
 then 
   echo " error : please run this script root user "
   exit 1
