@@ -6,7 +6,7 @@ id=$(id -u)
  LOGFILE="/temp/$0-$timestamp.log"
  
 validate(){
- if [ $? -ne 0 ] 
+ if [ $1 -ne 0 ] 
     then 
         echo " error : $2... failed"
         exit 1
