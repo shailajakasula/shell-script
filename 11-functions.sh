@@ -28,4 +28,4 @@ validate
 
 yum install git -y 
 
-VALIDATE
+validate
