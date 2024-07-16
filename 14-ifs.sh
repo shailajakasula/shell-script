@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file= /etc/passwd
+file=/etc/passwd
 
 R="\e[31m"
 G="\e[32m"
@@ -12,11 +12,11 @@ if [ ! -f $file ]
    echo -e "$R source directory : $file does not exist $N"
 fi
 
-while IFS=":" read -r username passwd user_id group_id
+while IFS=":" read -r username password user_id group_id
 
 do 
  echo "username : $username"
- echo "passwd  : $passwd"
+ echo "password  : $password"
  echo "user_id : $user_id"
  echo "group_id : $group_id"
 
