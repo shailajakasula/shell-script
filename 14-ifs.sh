@@ -20,4 +20,4 @@ do
  echo "user_id : $user_id"
  echo "group_id : $group_id"
 
-done << '$file'
+done < '$file'
